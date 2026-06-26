@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شركة الرياض للديكور | فخامة التصميم الداخلي والتنفيذ الفاخر</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital@0;1&family=Cairo:wght@300;400;600;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cream: '#FAF8F5',
+                        velvetBlack: '#111111',
+                        espresso: '#1C1C1C',
+                        champagneGold: '#C5A059',
+                        goldHover: '#D4AF37',
+                    },
+                    fontFamily: {
+                        serifEng: ['"Playfair Display"', 'serif'],
+                        serifAr: ['"Amiri"', 'serif'],
+                        sansAr: ['"Cairo"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #FAF8F5;
+            color: #1C1C1C;
+        }
+        .luxury-text-glow {
+            text-shadow: 0 0 12px rgba(197, 160, 89, 0.2);
+        }
+    </style>
+</head>
+<body class="overflow-x-hidden">
+
+    <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 border-b border-transparent bg-transparent py-5">
+        <div class="max-w-7xl mx-auto px-6 md:px-12 flex justify-between items-center">
+            
+            <a href="#" class="flex items-center space-x-3 space-x-reverse group">
+                <svg class="w-8 h-8 text-champagneGold transition-transform duration-500 group-hover:rotate-90" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                    <path d="M5 21V3M19 21V3M5 7h14M5 12h14M5 17h14" stroke-linecap="round"/>
+                </svg>
+                <div class="flex flex-col">
+                    <span class="font-serifAr text-xl md:text-2xl font-bold tracking-wide text-white transition-colors duration-300 id-brand-name luxury-text-glow">شركة الرياض للديكور</span>
+                    <span class="font-serifEng text-[9px] uppercase tracking-[0.3em] text-champagneGold">Riyadh Decor Co.</span>
+                </div>
+            </a>
+
+            <div class="hidden lg:flex items-center space-x-8 space-x-reverse font-sansAr text-sm tracking-wide">
+                <a href="#hero" class="nav-link text-white hover:text-champagneGold transition-colors relative py-2 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-champagneGold after:transition-all hover:after:w-full">الرئيسية</a>
+                <a href="#portfolio" class="nav-link text-white hover:text-champagneGold transition-colors relative py-2 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-champagneGold after:transition-all hover:after:w-full">أعمالنا</a>
+                <a href="#services" class="nav-link text-white hover:text-champagneGold transition-colors relative py-2 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-champagneGold after:transition-all hover:after:w-full">خدماتنا</a>
+                <a href="#booking" class="nav-link text-white hover:text-champagneGold transition-colors relative py-2 after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[1px] after:bg-champagneGold after:transition-all hover:after:w-full">الحجوزات</a>
+            </div>
+
+            <div>
+                <a href="https://wa.me/966559353503" target="_blank" class="font-sansAr text-xs uppercase tracking-wider border border-champagneGold text-champagneGold hover:bg-champagneGold hover:text-velvetBlack px-5 py-2.5 transition-all duration-300 backdrop-blur-sm">
+                    إحجز استشارتك الآن
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero" class="relative h-screen flex items-center justify-center bg-velvetBlack overflow-hidden">
+        <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover opacity-50 z-0">
+            <source src="4140808289910604335.mp4" type="video/mp4">
+        </video>
+        
+        <div class="absolute inset-0 bg-gradient-to-b from-black/80 via-black/40 to-velvetBlack z-10"></div>
+
+        <div class="relative z-20 text-center max-w-4xl px-6 mt-16">
+            <span class="font-serifEng text-xs md:text-sm uppercase tracking-[0.4em] text-champagneGold mb-4 block">DESIGN THAT ILLUMINATES</span>
+            <h1 class="font-serifAr text-4xl md:text-6xl text-white font-medium leading-tight mb-6 tracking-wide">
+                ديكورات الرياض.. <br>
+                <span class="font-serifEng italic font-light text-champagneGold">نصنع من المساحات لوحات فنية خالدة</span>
+            </h1>
+            <p class="font-sansAr text-neutral-300 text-sm md:text-base max-w-2xl mx-auto mb-10 font-light leading-relaxed">
+                القمة المطلقة في التصميم الداخلي الفاخر، التنفيذ المعماري المتكامل، والإشراف الهندسي النخبوي في المملكة العربية السعودية.
+            </p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
+                <a href="#portfolio" class="w-full sm:w-auto bg-champagneGold text-velvetBlack font-sansAr text-xs uppercase tracking-wider px-8 py-4 hover:bg-goldHover transition-colors duration-300 font-semibold shadow-lg">
+                    تصفح مشاريع النخبة
+                </a>
+                <a href="https://wa.me/966559353503" target="_blank" class="w-full sm:w-auto border border-white/30 text-white font-sansAr text-xs uppercase tracking-wider px-8 py-4 hover:bg-white hover:text-velvetBlack transition-all duration-300">
+                    تواصل مباشر عبر الواتساب
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="bg-cream py-24 md:py-32 px-6 md:px-12 border-b border-neutral-100">
+        <div class="max-w-7xl mx-auto">
+            
+            <div class="text-center mb-16">
+                <span class="font-serifEng text-xs uppercase tracking-[0.5em] text-champagneGold block mb-3">CURATED COLLECTIONS</span>
+                <h2 class="font-serifAr text-3xl md:text-4xl text-espresso font-normal">مجموعتنا المختارة من التصاميم</h2>
+                <div class="w-12 h-[1px] bg-champagneGold mx-auto mt-6"></div>
+            </div>
+
+            <div class="flex flex-wrap justify-center gap-6 md:gap-12 mb-16 font-sansAr text-xs md:text-sm tracking-wider uppercase border-b border-neutral-200 pb-4 max-w-3xl mx-auto">
+                <button onclick="filterPortfolio('all')" id="tab-all" class="portfolio-tab active-tab text-champagneGold font-semibold border-b-2 border-champagneGold pb-4 transition-all duration-300">الكل</button>
+                <button onclick="filterPortfolio('interior')" id="tab-interior" class="portfolio-tab text-neutral-400 hover:text-espresso pb-4 transition-all duration-300">التصميم الداخلي</button>
+                <button onclick="filterPortfolio('execution')" id="tab-execution" class="portfolio-tab text-neutral-400 hover:text-espresso pb-4 transition-all duration-300">التنفيذ والإشراف الهندسي</button>
+                <button onclick="filterPortfolio('exterior')" id="tab-exterior" class="portfolio-tab text-neutral-400 hover:text-espresso pb-4 transition-all duration-300">الديكورات الخارجية والحدائق</button>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="portfolio-grid">
+                
+                <div class="portfolio-item interior group relative overflow-hidden bg-white border border-neutral-200 p-3 transition-all duration-500 hover:border-champagneGold">
+                    <div class="overflow-hidden relative h-[400px]">
+                        <img src="IMG_9538.jpeg" alt="Interior Design" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="pt-4 pb-2 px-2 flex justify-between items-center">
+                        <div>
+                            <h3 class="font-serifAr text-lg text-espresso group-hover:text-champagneGold transition-colors">صالون استقبال ملكي</h3>
+                            <p class="font-sansAr text-xs text-neutral-400 mt-1">قصر فاخر - حطين</p>
+                        </div>
+                        <span class="font-serifEng text-xs italic text-champagneGold">01</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item interior group relative overflow-hidden bg-white border border-neutral-200 p-3 transition-all duration-500 hover:border-champagneGold">
+                    <div class="overflow-hidden relative h-[400px]">
+                        <img src="IMG_9547.jpeg" alt="Interior Design" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="pt-4 pb-2 px-2 flex justify-between items-center">
+                        <div>
+                            <h3 class="font-serifAr text-lg text-espresso group-hover:text-champagneGold transition-colors">جناح نوم رئيسي ميمون</h3>
+                            <p class="font-sansAr text-xs text-neutral-400 mt-1">فيلا النخبة - الصحافة</p>
+                        </div>
+                        <span class="font-serifEng text-xs italic text-champagneGold">02</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item execution group relative overflow-hidden bg-white border border-neutral-200 p-3 transition-all duration-500 hover:border-champagneGold">
+                    <div class="overflow-hidden relative h-[400px]">
+                        <img src="IMG_9548.jpeg" alt="Execution" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="pt-4 pb-2 px-2 flex justify-between items-center">
+                        <div>
+                            <h3 class="font-serifAr text-lg text-espresso group-hover:text-champagneGold transition-colors">إشراف هندسي وتشطيب رخام</h3>
+                            <p class="font-sansAr text-xs text-neutral-400 mt-1">برج سكني فاخر - الملقا</p>
+                        </div>
+                        <span class="font-serifEng text-xs italic text-champagneGold">03</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item exterior group relative overflow-hidden bg-white border border-neutral-200 p-3 transition-all duration-500 hover:border-champagneGold">
+                    <div class="overflow-hidden relative h-[400px]">
+                        <img src="IMG_9549.jpeg" alt="Exterior Design" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="pt-4 pb-2 px-2 flex justify-between items-center">
+                        <div>
+                            <h3 class="font-serifAr text-lg text-espresso group-hover:text-champagneGold transition-colors">حديقة داخلية ومصارف مائية</h3>
+                            <p class="font-sansAr text-xs text-neutral-400 mt-1">فيلا مودرن - الياسمين</p>
+                        </div>
+                        <span class="font-serifEng text-xs italic text-champagneGold">04</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item interior group relative overflow-hidden bg-white border border-neutral-200 p-3 transition-all duration-500 hover:border-champagneGold">
+                    <div class="overflow-hidden relative h-[400px]">
+                        <img src="IMG_9550.jpeg" alt="Interior Design" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    <div class="pt-4 pb-2 px-2 flex justify-between items-center">
+                        <div>
+                            <h3 class="font-serifAr text-lg text-espresso group-hover:text-champagneGold transition-colors">غرفة طعام كلاسيكية</h3>
+                            <p class="font-sansAr text-xs text-neutral-400 mt-1">قصر خاص - الغدير</p>
+                        </div>
+                        <span class="font-serifEng text-xs italic text-champagneGold">05</span>
+                    </div>
+                </div>
+
+                <div class="portfolio-item interior execution group relative overflow-hidden bg-velvetBlack text-white border border-neutral-800 p-3 transition-all duration-500 hover:border-champagneGold lg:col-span-1">
+                    <div class="overflow-hidden relative h-[400px] flex items-center justify-center">
+                        <video autoplay loop muted playsinline class="absolute inset-0 w-full h-full object-cover opacity-40">
+                            <source src="-71442752154960375.mp4" type="video/mp4">
+                        </video>
+                        <div class="relative z-10 text-center p-6 border border-neutral-800 bg-black/40 backdrop-blur-sm m-4 h-[calc(100%-2rem)] flex flex-col justify-center items-center">
+                            <span class="font-serifEng text-[10px] tracking-[0.3em] text-champagneGold mb-2">CINEMATIC SHOWCASE</span>
+                            <h3 class="font-serifAr text-xl mb-4">عرض مرئي متكامل للمشاريع المنفذة</h3>
+                            <a href="https://wa.me/966559353503" target="_blank" class="text-xs tracking-widest uppercase text-white border-b border-champagneGold pb-1 hover:text-champagneGold transition-colors">شاهد المزيد</a>
+                        </div>
+                    </div>
+                    <div class="pt-4 pb-2 px-2 flex justify-between items-center">
+                        <div>
+                            <h3 class="font-serifAr text-lg text-champagneGold">التفاصيل الرقمية</h3>
+                            <p class="font-sansAr text-xs text-neutral-400 mt-1">تغطية حية للمواقع الإنشائية</p>
+                        </div>
+                        <span class="font-serifEng text-xs italic text-neutral-500">LIVE</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="w-full grid grid-cols-1 lg:grid-cols-12">
+        
+        <div class="lg:col-span-5 bg-velvetBlack text-white p-12 md:p-24 flex flex-col justify-between items-start min-h-[500px]">
+            <div>
+                <span class="font-serifEng text-xs uppercase tracking-[0.4em] text-champagneGold mb-4 block">BESPOKE SERVICES</span>
+                <h2 class="font-serifAr text-3xl md:text-5xl font-light mb-8 leading-tight">خدمات هندسية وتصميمية متكاملة</h2>
+                <p class="font-sansAr text-neutral-400 text-sm font-light leading-relaxed mb-8 max-w-md">
+                    من الفكرة المبدئية وحتى التسليم النهائي للمفتاح. نقوم بصياغة مساحتك بأسلوب يعبر عن هويتك الرفيعة مع الإشراف الكامل على أدق المواد والتفاصيل.
+                </p>
+            </div>
+            <a href="https://wa.me/966559353503" target="_blank" class="border-b border-champagneGold text-champagneGold text-xs uppercase tracking-widest pb-1 hover:text-white hover:border-white transition-all">
+                اكتشف الخدمات التفصيلية
+            </a>
+        </div>
+
+        <div class="lg:col-span-7 bg-cream p-12 md:p-24 flex flex-col justify-center border-t lg:border-t-0 lg:border-r border-neutral-200">
+            <span class="font-serifEng text-xs uppercase tracking-[0.4em] text-neutral-400 mb-4 block">FEATURED PIECES</span>
+            <h3 class="font-serifAr text-2xl mb-12 text-espresso">عناصر نعتمدها في تصاميمنا الفاخرة</h3>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+                <div class="text-center p-4 border border-neutral-200 bg-white group hover:border-champagneGold transition-colors">
+                    <div class="h-24 flex items-center justify-center mb-4 text-champagneGold">
+                        <svg class="w-12 h-12 stroke-1" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 3v18M3 12h18" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <span class="font-serifAr text-sm block text-espresso font-medium">ثريات الكريستال</span>
+                </div>
+
+                <div class="text-center p-4 border border-neutral-200 bg-white group hover:border-champagneGold transition-colors">
+                    <div class="h-24 flex items-center justify-center mb-4 text-champagneGold">
+                        <svg class="w-12 h-12 stroke-1" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="4" y="4" width="16" height="16" rx="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <span class="font-serifAr text-sm block text-espresso font-medium">الرخام الإيطالي</span>
+                </div>
+
+                <div class="text-center p-4 border border-neutral-200 bg-white group hover:border-champagneGold transition-colors">
+                    <div class="h-24 flex items-center justify-center mb-4 text-champagneGold">
+                        <svg class="w-12 h-12 stroke-1" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <span class="font-serifAr text-sm block text-espresso font-medium">الألواح الخشبية</span>
+                </div>
+
+                <div class="text-center p-4 border border-neutral-200 bg-white group hover:border-champagneGold transition-colors">
+                    <div class="h-24 flex items-center justify-center mb-4 text-champagneGold">
+                        <svg class="w-12 h-12 stroke-1" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="10"/>
+                        </svg>
+                    </div>
+                    <span class="font-serifAr text-sm block text-espresso font-medium">الإضاءة الذكية</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-velvetBlack text-white py-20 border-t border-neutral-800">
+        <div class="max-w-5xl mx-auto px-6 text-center">
+            <span class="text-champagneGold text-4xl block mb-6 font-serifEng">“</span>
+            <p id="testimonial-text" class="font-serifAr text-lg md:text-xl md:px-12 leading-relaxed transition-opacity duration-500 ease-in-out opacity-100">
+                "إن شركة الرياض للديكور حولت فلتنا إلى تحفة فنية حقيقية تفوق الخيال. دقة متناهية في المواعيد واحترافية مطلقة في التنفيذ الهندسي."
+            </p>
+            <span id="testimonial-author" class="font-sansAr text-xs text-champagneGold uppercase tracking-widest mt-6 block">سارة ل. - حي حطين</span>
+            
+            <div class="flex justify-center space-x-2 space-x-reverse mt-8">
+                <button onclick="setTestimonial(0)" class="w-2 h-2 rounded-full bg-champagneGold indicator-dot"></button>
+                <button onclick="setTestimonial(1)" class="w-2 h-2 rounded-full bg-neutral-600 indicator-dot"></button>
+                <button onclick="setTestimonial(2)" class="w-2 h-2 rounded-full bg-neutral-600 indicator-dot"></button>
+            </div>
+        </div>
+    </section>
+
+    <section id="booking" class="bg-cream py-24 md:py-32 px-6 md:px-12">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+            
+            <div>
+                <span class="font-serifEng text-xs uppercase tracking-[0.4em] text-champagneGold block mb-3">LET'S CREATE SOMETHING BEAUTIFUL</span>
+                <h2 class="font-serifAr text-3xl md:text-4xl text-espresso mb-8">ابدأ رحلتك نحو الفخامة اليوم</h2>
+                
+                <p class="font-sansAr text-neutral-600 text-sm font-light leading-relaxed mb-8">
+                    قم بجدولة معاينة واستشارة خاصة مع مهندسينا وقادة فريق التصميم لدينا لبلورة رؤيتك على أرض الواقع. خلال المعاينة ستحصل على:
+                </p>
+
+                <ul class="space-y-4 font-sansAr text-sm text-espresso font-light">
+                    <li class="flex items-center space-x-3 space-x-reverse">
+                        <svg class="w-4 h-4 text-champagneGold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7" stroke-linecap="round"/></svg>
+                        <span>رفع المقاسات الهندسية الدقيقة للمساحة.</span>
+                    </li>
+                    <li class="flex items-center space-x-3 space-x-reverse">
+                        <svg class="w-4 h-4 text-champagneGold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7" stroke-linecap="round"/></svg>
+                        <span>تحديد أولي للمواد، الرخام، والألوان المتناسقة.</span>
+                    </li>
+                    <li class="flex items-center space-x-3 space-x-reverse">
+                        <svg class="w-4 h-4 text-champagneGold" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path d="M5 13l4 4L19 7" stroke-linecap="round"/></svg>
+                        <span>تقديم مقترح أولي للمخطط ثلاثي الأبعاد (3D View).</span>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bg-white border border-neutral-200 p-8 md:p-12 shadow-sm">
+                <form id="luxuryForm" onsubmit="handleFormSubmit(event)" class="space-y-8 font-sansAr text-sm">
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-neutral-400 mb-2">الإسم الكامل</label>
+                        <input type="text" required class="w-full bg-transparent border-b border-neutral-300 focus:border-champagneGold outline-none py-2 transition-colors text-espresso">
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-neutral-400 mb-2">الموقع (المنطقة / الحي بالرياض)</label>
+                        <input type="text" required class="w-full bg-transparent border-b border-neutral-300 focus:border-champagneGold outline-none py-2 transition-colors text-espresso" placeholder="مثال: فيلا - حي حطين">
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-neutral-400 mb-2">رقم الواتساب</label>
+                        <input type="tel" required class="w-full bg-transparent border-b border-neutral-300 focus:border-champagneGold outline-none py-2 transition-colors text-espresso text-left" dir="ltr" placeholder="+966 5x xxx xxxx">
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-neutral-400 mb-2">النطاق التقديري للميزانية الكلية</label>
+                        <select class="w-full bg-transparent border-b border-neutral-300 focus:border-champagneGold outline-none py-2 transition-colors text-espresso">
+                            <option value="premium">من 100,000 إلى 300,000 ريال</option>
+                            <option value="elite">من 300,000 إلى 700,000 ريال</option>
+                            <option value="royal">اكثر من 700,000 ريال (قصور ونخبة)</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label class="block text-xs uppercase tracking-wider text-neutral-400 mb-2">التاريخ والوقت المفضل للمعاينة</label>
+                        <input type="datetime-local" required class="w-full bg-transparent border-b border-neutral-300 focus:border-champagneGold outline-none py-2 transition-colors text-espresso">
+                    </div>
+
+                    <button type="submit" class="w-full bg-velvetBlack text-white hover:bg-champagneGold hover:text-velvetBlack transition-colors duration-300 py-4 font-semibold uppercase tracking-widest text-xs">
+                        تأكيد طلب حجز موعد معاينة
+                    </button>
+                </form>
+                <div id="successMessage" class="hidden text-center text-champagneGold font-serifAr text-lg mt-6">
+                    تم تسجيل طلبكم الفاخر بنجاح. سيقوم مستشارنا الهندسي بالتواصل معكم خلال الساعات القادمة.
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="bg-velvetBlack text-white pt-20 pb-10 px-6 md:px-12 border-t border-neutral-900">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12 mb-16">
+            
+            <div>
+                <span class="font-serifAr text-2xl font-bold tracking-wide text-champagneGold luxury-text-glow">شركة الرياض للديكور</span>
+                <p class="font-sansAr text-neutral-400 text-xs font-light leading-relaxed mt-4 max-w-sm">
+                    نصنع الفخامة والتميز الهندسي في أرقى أحياء الرياض والخليج العربي. خبرتنا الممتدة تجعل من عقارك تحفة معمارية نادرة.
+                </p>
+            </div>
+
+            <div class="font-sansAr text-xs space-y-3 flex flex-col">
+                <span class="text-champagneGold font-semibold uppercase tracking-wider mb-2 block">روابط سريعة</span>
+                <a href="#hero" class="text-neutral-400 hover:text-white transition-colors">الرئيسية</a>
+                <a href="#portfolio" class="text-neutral-400 hover:text-white transition-colors">معرض الأعمال النخبوية</a>
+                <a href="#services" class="text-neutral-400 hover:text-white transition-colors">خدماتنا الهندسية</a>
+                <a href="#booking" class="text-neutral-400 hover:text-white transition-colors">حجز موعد إستشارة</a>
+            </div>
+
+            <div class="font-sansAr text-xs">
+                <span class="text-champagneGold font-semibold uppercase tracking-wider mb-4 block">تابعوا فخامة أعمالنا المباشرة</span>
+                <div class="flex items-center space-x-4 space-x-reverse mt-2">
+                    <a href="https://www.instagram.com/riyadh_decor_m?igsh=czkxNDgzc3hoZXk=" target="_blank" class="w-10 h-10 border border-neutral-800 flex items-center justify-center text-neutral-400 hover:text-champagneGold hover:border-champagneGold transition-all">
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                            <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/>
+                        </svg>
+                    </a>
+                    <a href="https://wa.me/966559353503" target="_blank" class="w-10 h-10 border border-neutral-800 flex items-center justify-center text-neutral-400 hover:text-champagneGold hover:border-champagneGold transition-all">
+                        <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+                            <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.06 5.348 5.397 0 11.966 0c3.184.001 6.177 1.242 8.426 3.496 2.248 2.253 3.487 5.244 3.486 8.428-.003 6.616-5.34 11.962-11.91 11.962v-.001c-1.997 0-3.963-.5-5.717-1.45L0 24zm6.59-4.846c1.66.986 3.288 1.477 4.925 1.478 5.417 0 9.825-4.414 9.828-9.831.001-2.624-1.021-5.091-2.879-6.951C16.606 1.991 14.141 1.001 11.516 1h-.01c-5.419 0-9.827 4.415-9.83 9.835-.001 1.737.47 3.425 1.365 4.925L2.043 21.92l6.17-1.616z"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-7xl mx-auto border-t border-neutral-950 pt-8 flex flex-col md:flex-row justify-between items-center text-[10px] text-neutral-500 tracking-wider">
+            <p>© 2026 شركة الرياض للديكور. جميع الحقوق محفوظة.</p>
+            <p class="font-serifEng mt-4 md:mt-0">Designed with absolute prestige by Maria Guidoum | Web Design Portfolio</p>
+        </div>
+    </footer>
+
+    <script>
+        // Sticky Navbar Glassmorphism State Management
+        const navbar = document.getElementById('navbar');
+        const brandName = document.querySelector('.id-brand-name');
+        const navLinks = document.querySelectorAll('.nav-link');
+
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 100) {
+                navbar.classList.remove('bg-transparent', 'py-5', 'border-transparent');
+                navbar.classList.add('bg-velvetBlack/90', 'backdrop-blur-md', 'py-3', 'border-neutral-900');
+            } else {
+                navbar.classList.remove('bg-velvetBlack/90', 'backdrop-blur-md', 'py-3', 'border-neutral-900');
+                navbar.classList.add('bg-transparent', 'py-5', 'border-transparent');
+            }
+        });
+
+        // Portfolio Category Interactive Filter
+        function filterPortfolio(category) {
+            const items = document.querySelectorAll('.portfolio-item');
+            const tabs = document.querySelectorAll('.portfolio-tab');
+            
+            // Manage Active Tab State
+            tabs.forEach(tab => {
+                tab.classList.remove('text-champagneGold', 'font-semibold', 'border-b-2', 'border-champagneGold');
+                tab.classList.add('text-neutral-400');
+            });
+            
+            const currentTab = document.getElementById(`tab-${category}`);
+            currentTab.classList.remove('text-neutral-400');
+            currentTab.classList.add('text-champagneGold', 'font-semibold', 'border-b-2', 'border-champagneGold');
+
+            // Filter Logic with Animation
+            items.forEach(item => {
+                item.style.opacity = '0';
+                item.style.transform = 'scale(0.95)';
+                setTimeout(() => {
+                    if (category === 'all' || item.classList.contains(category)) {
+                        item.style.display = 'block';
+                        setTimeout(() => {
+                            item.style.opacity = '1';
+                            item.style.transform = 'scale(1)';
+                        }, 50);
+                    } else {
+                        item.style.display = 'none';
+                    }
+                }, 300);
+            });
+        }
+
+        // Testimonial Autoplay Slider
+        const testimonials = [
+            {
+                text: `"إن شركة الرياض للديكور حولت فلتنا إلى تحفة فنية حقيقية تفوق الخيال. دقة متناهية في المواعيد واحترافية مطلقة في التنفيذ الهندسي."`,
+                author: "سارة ل. - حي حطين"
+            },
+            {
+                text: `"الاهتمام بأدق التفاصيل والخدمة المتميزة تفوق الوصف. تجربة استثنائية وأنصح بهم بشدة لكل من يبحث عن الفخامة الحقيقية بالمنطقة."`,
+                author: "خالد م. - حي الملقا"
+            },
+            {
+                text: `"منزلي أصبح ينبض بالأناقة والرحابة بفضل رؤيتهم الإبداعية الفريدة. شكراً لكامل الطاقم الهندسي المتميز."`,
+                author: "أضواء ع. - قصر خاص بالغرب"
+            }
+        ];
+
+        let currentTestimonial = 0;
+        const textElem = document.getElementById('testimonial-text');
+        const authorElem = document.getElementById('testimonial-author');
+        const dots = document.querySelectorAll('.indicator-dot');
+
+        function setTestimonial(index) {
+            currentTestimonial = index;
+            textElem.style.opacity = '0';
+            authorElem.style.opacity = '0';
+            
+            setTimeout(() => {
+                textElem.innerText = testimonials[index].text;
+                authorElem.innerText = testimonials[index].author;
+                textElem.style.opacity = '1';
+                authorElem.style.opacity = '1';
+                
+                dots.forEach((dot, idx) => {
+                    if (idx === index) {
+                        dot.classList.remove('bg-neutral-600');
+                        dot.classList.add('bg-champagneGold');
+                    } else {
+                        dot.classList.remove('bg-champagneGold');
+                        dot.classList.add('bg-neutral-600');
+                    }
+                });
+            }, 500);
+        }
+
+        setInterval(() => {
+            let next = (currentTestimonial + 1) % testimonials.length;
+            setTestimonial(next);
+        }, 8000);
+
+        // Luxury Automated Booking Form Submission
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            document.getElementById('luxuryForm').classList.add('hidden');
+            document.getElementById('successMessage').classList.remove('hidden');
+        }
+    </script>
+</body>
+</html>
